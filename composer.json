@@ -1,0 +1,29 @@
+{
+  "name": "BnMcG/TescoPHP",
+  "description": "A PHP SDK for the Tesco Labs API",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Magee",
+      "email": "ben@bmagee.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2",
+    "vlucas/phpdotenv": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "BnMcG\\TescoPHP\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BnMcG\\TescoPHP\\Tests\\": "tests/"
+    }
+  }
+}
